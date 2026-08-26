@@ -1,0 +1,286 @@
+[
+  {
+    "dataset": "dermamnist",
+    "modality": "multi-class",
+    "description": "The DermaMNIST is based on the HAM10000, a large collection of multi-source dermatoscopic images of common pigmented ski",
+    "n_classes": 7,
+    "class_names": [
+      "actinic keratoses and intraepithelial carcinoma",
+      "basal cell carcinoma",
+      "benign keratosis-like lesions",
+      "dermatofibroma",
+      "melanoma",
+      "melanocytic nevi",
+      "vascular lesions"
+    ],
+    "image_shape": "64x64x3",
+    "feature_dim": 12288,
+    "total_samples": 10015,
+    "splits": {
+      "train": {
+        "n_samples": 7007,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "actinic keratoses and intraepithelial carcinoma": 228,
+          "basal cell carcinoma": 359,
+          "benign keratosis-like lesions": 769,
+          "dermatofibroma": 80,
+          "melanoma": 779,
+          "melanocytic nevi": 4693,
+          "vascular lesions": 99
+        }
+      },
+      "val": {
+        "n_samples": 1003,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "actinic keratoses and intraepithelial carcinoma": 33,
+          "basal cell carcinoma": 52,
+          "benign keratosis-like lesions": 110,
+          "dermatofibroma": 12,
+          "melanoma": 111,
+          "melanocytic nevi": 671,
+          "vascular lesions": 14
+        }
+      },
+      "test": {
+        "n_samples": 2005,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "actinic keratoses and intraepithelial carcinoma": 66,
+          "basal cell carcinoma": 103,
+          "benign keratosis-like lesions": 220,
+          "dermatofibroma": 23,
+          "melanoma": 223,
+          "melanocytic nevi": 1341,
+          "vascular lesions": 29
+        }
+      }
+    },
+    "train_imbalance_ratio": 58.66,
+    "pixel_mean": 0.6219,
+    "pixel_std": 0.1872,
+    "pixel_min": 0.0,
+    "pixel_max": 1.0
+  },
+  {
+    "dataset": "pneumoniamnist",
+    "modality": "binary-class",
+    "description": "The PneumoniaMNIST is based on a prior dataset of 5,856 pediatric chest X-Ray images. The task is binary-class classific",
+    "n_classes": 2,
+    "class_names": [
+      "normal",
+      "pneumonia"
+    ],
+    "image_shape": "64x64x1",
+    "feature_dim": 4096,
+    "total_samples": 5856,
+    "splits": {
+      "train": {
+        "n_samples": 4708,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 1,
+        "feature_dim": 4096,
+        "class_counts": {
+          "normal": 1214,
+          "pneumonia": 3494
+        }
+      },
+      "val": {
+        "n_samples": 524,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 1,
+        "feature_dim": 4096,
+        "class_counts": {
+          "normal": 135,
+          "pneumonia": 389
+        }
+      },
+      "test": {
+        "n_samples": 624,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 1,
+        "feature_dim": 4096,
+        "class_counts": {
+          "normal": 234,
+          "pneumonia": 390
+        }
+      }
+    },
+    "train_imbalance_ratio": 2.88,
+    "pixel_mean": 0.5708,
+    "pixel_std": 0.1735,
+    "pixel_min": 0.0,
+    "pixel_max": 1.0
+  },
+  {
+    "dataset": "bloodmnist",
+    "modality": "multi-class",
+    "description": "The BloodMNIST is based on a dataset of individual normal cells, captured from individuals without infection, hematologi",
+    "n_classes": 8,
+    "class_names": [
+      "basophil",
+      "eosinophil",
+      "erythroblast",
+      "immature granulocytes(myelocytes, metamyelocytes and promyelocytes)",
+      "lymphocyte",
+      "monocyte",
+      "neutrophil",
+      "platelet"
+    ],
+    "image_shape": "64x64x3",
+    "feature_dim": 12288,
+    "total_samples": 17092,
+    "splits": {
+      "train": {
+        "n_samples": 11959,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "basophil": 852,
+          "eosinophil": 2181,
+          "erythroblast": 1085,
+          "immature granulocytes(myelocytes, metamyelocytes and promyelocytes)": 2026,
+          "lymphocyte": 849,
+          "monocyte": 993,
+          "neutrophil": 2330,
+          "platelet": 1643
+        }
+      },
+      "val": {
+        "n_samples": 1712,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "basophil": 122,
+          "eosinophil": 312,
+          "erythroblast": 155,
+          "immature granulocytes(myelocytes, metamyelocytes and promyelocytes)": 290,
+          "lymphocyte": 122,
+          "monocyte": 143,
+          "neutrophil": 333,
+          "platelet": 235
+        }
+      },
+      "test": {
+        "n_samples": 3421,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "basophil": 244,
+          "eosinophil": 624,
+          "erythroblast": 311,
+          "immature granulocytes(myelocytes, metamyelocytes and promyelocytes)": 579,
+          "lymphocyte": 243,
+          "monocyte": 284,
+          "neutrophil": 666,
+          "platelet": 470
+        }
+      }
+    },
+    "train_imbalance_ratio": 2.74,
+    "pixel_mean": 0.7171,
+    "pixel_std": 0.211,
+    "pixel_min": 0.0314,
+    "pixel_max": 1.0
+  },
+  {
+    "dataset": "pathmnist",
+    "modality": "multi-class",
+    "description": "The PathMNIST is based on a prior study for predicting survival from colorectal cancer histology slides, providing a dat",
+    "n_classes": 9,
+    "class_names": [
+      "adipose",
+      "background",
+      "debris",
+      "lymphocytes",
+      "mucus",
+      "smooth muscle",
+      "normal colon mucosa",
+      "cancer-associated stroma",
+      "colorectal adenocarcinoma epithelium"
+    ],
+    "image_shape": "64x64x3",
+    "feature_dim": 12288,
+    "total_samples": 107180,
+    "splits": {
+      "train": {
+        "n_samples": 89996,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "adipose": 9366,
+          "background": 9509,
+          "debris": 10360,
+          "lymphocytes": 10401,
+          "mucus": 8006,
+          "smooth muscle": 12182,
+          "normal colon mucosa": 7886,
+          "cancer-associated stroma": 9401,
+          "colorectal adenocarcinoma epithelium": 12885
+        }
+      },
+      "val": {
+        "n_samples": 10004,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "adipose": 1041,
+          "background": 1057,
+          "debris": 1152,
+          "lymphocytes": 1156,
+          "mucus": 890,
+          "smooth muscle": 1354,
+          "normal colon mucosa": 877,
+          "cancer-associated stroma": 1045,
+          "colorectal adenocarcinoma epithelium": 1432
+        }
+      },
+      "test": {
+        "n_samples": 7180,
+        "image_h": 64,
+        "image_w": 64,
+        "channels": 3,
+        "feature_dim": 12288,
+        "class_counts": {
+          "adipose": 1338,
+          "background": 847,
+          "debris": 339,
+          "lymphocytes": 634,
+          "mucus": 1035,
+          "smooth muscle": 592,
+          "normal colon mucosa": 741,
+          "cancer-associated stroma": 421,
+          "colorectal adenocarcinoma epithelium": 1233
+        }
+      }
+    },
+    "train_imbalance_ratio": 1.63,
+    "pixel_mean": 0.6593,
+    "pixel_std": 0.1911,
+    "pixel_min": 0.0,
+    "pixel_max": 1.0
+  }
+]

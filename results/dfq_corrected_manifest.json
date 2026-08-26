@@ -1,0 +1,92 @@
+{
+  "generated_utc": "2026-08-09T22:22:57.845601+00:00",
+  "python": "3.12.13",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "device": "mps",
+  "protocol": "fixed matched-cardinality 2x2; no low-bit validation selection",
+  "model_seeds": [
+    42,
+    123,
+    456
+  ],
+  "rotation_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "torch": "2.13.0",
+    "torchvision": "0.28.0",
+    "medmnist": "3.0.2",
+    "matplotlib": "3.11.1",
+    "sklearn": "1.9.0"
+  },
+  "result_files": {
+    "dfq_corrected_fixed.csv": {
+      "sha256": "c96c6a83856456348b7d2e4bc474e6d2b7512b64d06df51842108d212e31d94b",
+      "mtime_utc": "2026-08-09T22:09:04.185022+00:00"
+    },
+    "dfq_rotation_factorial.csv": {
+      "sha256": "2ec810fcffbcf4959401ecd4181216a4bc45684952bb2cd1b7ee4fd75dea3c7a",
+      "mtime_utc": "2026-08-09T22:11:42.392561+00:00"
+    },
+    "dfq_corrected_summary.md": {
+      "sha256": "6edeeec51d391ad71a920e9d4dfcc1c8f13f0c3f36164023b7df99e895ff96fc",
+      "mtime_utc": "2026-08-09T22:15:02.700105+00:00"
+    }
+  },
+  "checkpoints": {
+    "bloodmnist_seed123.pt": {
+      "sha256": "a2eb1735919b91cca90a8b2da61d6f16842bce86af0e7223f596602dbcf2ecf2",
+      "bytes": 6228018
+    },
+    "bloodmnist_seed42.pt": {
+      "sha256": "04c75852b757e0d5f18de7b0122abca3f7c5430f886a5f45c3268849a8810a9f",
+      "bytes": 6227770
+    },
+    "bloodmnist_seed456.pt": {
+      "sha256": "7435ce812d24c68ef5364791eac1faad9c8c2faf3224268bcffe19f9004ce59a",
+      "bytes": 6228018
+    },
+    "dermamnist_seed123.pt": {
+      "sha256": "8ccc066e2b7d03e9bcd676c1f0f15fef58f758c2f5d906e30c290bbe7d786d30",
+      "bytes": 6223922
+    },
+    "dermamnist_seed42.pt": {
+      "sha256": "0d55344a5e62263561a9236c29a675a1c8fed8020ed4a91efc6266a241fbaa2e",
+      "bytes": 6223674
+    },
+    "dermamnist_seed456.pt": {
+      "sha256": "64ae2c3a7474c7ac6d58e549752f09b71ea0fe57fc1515fdd872fc34470f897e",
+      "bytes": 6223922
+    },
+    "pathmnist_seed123.pt": {
+      "sha256": "34da9da67fa45795b9b8929c57694772282eb2e017dd76f16b290d0b01b16f3b",
+      "bytes": 6231866
+    },
+    "pathmnist_seed42.pt": {
+      "sha256": "f293f979bed796195b85b18c22479a0de8fc2e98dba2cd1dad5b97f4258645a0",
+      "bytes": 6231618
+    },
+    "pathmnist_seed456.pt": {
+      "sha256": "6c67264d552647758bb2ed518a33782bf190700d31dfdfabbdb7fa6a1a901438",
+      "bytes": 6231866
+    },
+    "pneumoniamnist_seed123.pt": {
+      "sha256": "9ca190c298c12707025f3be88d9a00e22c535a23680d74ab7483ed7af1e1ea3e",
+      "bytes": 6203346
+    },
+    "pneumoniamnist_seed42.pt": {
+      "sha256": "d4ac570d8addae46811f0ab67e6f3890b6dbb310f2b0399a5166c00eecd65a8f",
+      "bytes": 6203034
+    },
+    "pneumoniamnist_seed456.pt": {
+      "sha256": "8e787f32e17cc57bb6609fd505d535a7f2c87dcf3082e3aae17db4face4eb8c0",
+      "bytes": 6203346
+    }
+  }
+}

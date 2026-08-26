@@ -1,0 +1,24 @@
+# Environments
+.venv/
+__pycache__/
+*.py[cod]
+
+# Datasets download automatically via medmnist; 1.3 GB, not redistributed
+code/medmnist_data/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# LaTeX build products (dfq_medmnist.pdf and no_peeking.pdf are kept)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+
+# macOS
+.DS_Store

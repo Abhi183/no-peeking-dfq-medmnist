@@ -1,0 +1,42 @@
+{
+  "generated_utc": "2026-06-15T00:03:12.208756+00:00",
+  "python": "3.12.12",
+  "platform": "macOS-15.7.4-x86_64-i386-64bit",
+  "device": "mps",
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "torch": "2.2.2",
+    "torchvision": "0.17.2",
+    "medmnist": "3.0.2",
+    "matplotlib": "3.10.8",
+    "sklearn": "1.8.0"
+  },
+  "result_files": {
+    "dfq_final_grid.csv": {
+      "sha256": "7fd968210823b85429dda1a7269424f21685c8921d2174bf4d470aeee979f7a5",
+      "mtime_utc": "2026-06-14T23:54:24.879946+00:00"
+    },
+    "dfq_final_selected.csv": {
+      "sha256": "7f138ea07973e2c8f398324c8e8d9d31b2129cca447837bd149fd3021a6ac996",
+      "mtime_utc": "2026-06-14T23:54:24.996503+00:00"
+    },
+    "dfq_medmnist.csv": {
+      "sha256": "54269c98e24cd3694c2b915b99fb0cc06ae3c14e66e4539580f62e89ac315248",
+      "mtime_utc": "2026-06-13T22:51:40.876294+00:00"
+    },
+    "dfq_medmnist_policy.csv": {
+      "sha256": "f7d328738b0a872255bf69a0d99cbdef3b50dcdc1efbbb4114ef9c29c534caf1",
+      "mtime_utc": "2026-06-14T01:27:21.614805+00:00"
+    },
+    "dfq_medmnist_policy_1rot.csv": {
+      "sha256": "78e453adf91eab5ee610b94b09a9bc53342f10de844cfe0221780513f2196d9a",
+      "mtime_utc": "2026-06-14T01:19:59.118997+00:00"
+    }
+  }
+}
