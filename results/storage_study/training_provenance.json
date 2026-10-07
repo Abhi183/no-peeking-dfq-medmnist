@@ -1,0 +1,98 @@
+{
+  "pretrained_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "pretrained_counter": 699033,
+  "evidence": "Selected epochs inferred from batch counters assuming the archived batch-128 loop and matching pretrained initialization. Counters do not establish the total epoch budget, LR, optimizer, or scheduler actually used.",
+  "original_manuscript_epoch_budget": 12,
+  "script_defaults": {
+    "epochs": 15,
+    "lr": 0.001,
+    "batch_size": 128,
+    "weight_decay": 0.0001
+  },
+  "checkpoints": [
+    {
+      "checkpoint": "bloodmnist_seed123.pt",
+      "bn_counter": 700161,
+      "training_batches": 1128,
+      "batches_per_epoch_at_batch128": 94,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "bloodmnist_seed42.pt",
+      "bn_counter": 699973,
+      "training_batches": 940,
+      "batches_per_epoch_at_batch128": 94,
+      "inferred_selected_epoch": 10
+    },
+    {
+      "checkpoint": "bloodmnist_seed456.pt",
+      "bn_counter": 700161,
+      "training_batches": 1128,
+      "batches_per_epoch_at_batch128": 94,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "dermamnist_seed123.pt",
+      "bn_counter": 699693,
+      "training_batches": 660,
+      "batches_per_epoch_at_batch128": 55,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "dermamnist_seed42.pt",
+      "bn_counter": 699363,
+      "training_batches": 330,
+      "batches_per_epoch_at_batch128": 55,
+      "inferred_selected_epoch": 6
+    },
+    {
+      "checkpoint": "dermamnist_seed456.pt",
+      "bn_counter": 699473,
+      "training_batches": 440,
+      "batches_per_epoch_at_batch128": 55,
+      "inferred_selected_epoch": 8
+    },
+    {
+      "checkpoint": "pathmnist_seed123.pt",
+      "bn_counter": 707481,
+      "training_batches": 8448,
+      "batches_per_epoch_at_batch128": 704,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "pathmnist_seed42.pt",
+      "bn_counter": 707481,
+      "training_batches": 8448,
+      "batches_per_epoch_at_batch128": 704,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "pathmnist_seed456.pt",
+      "bn_counter": 707481,
+      "training_batches": 8448,
+      "batches_per_epoch_at_batch128": 704,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "pneumoniamnist_seed123.pt",
+      "bn_counter": 699477,
+      "training_batches": 444,
+      "batches_per_epoch_at_batch128": 37,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "pneumoniamnist_seed42.pt",
+      "bn_counter": 699477,
+      "training_batches": 444,
+      "batches_per_epoch_at_batch128": 37,
+      "inferred_selected_epoch": 12
+    },
+    {
+      "checkpoint": "pneumoniamnist_seed456.pt",
+      "bn_counter": 699477,
+      "training_batches": 444,
+      "batches_per_epoch_at_batch128": 37,
+      "inferred_selected_epoch": 12
+    }
+  ]
+}

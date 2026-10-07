@@ -1,0 +1,60 @@
+{
+  "device": "mps",
+  "torch": "2.14.0",
+  "numpy": "2.5.3",
+  "python": "3.12.14",
+  "configs": [
+    [
+      "fp32",
+      32
+    ],
+    [
+      "fp16",
+      16
+    ],
+    [
+      "int8_minmax",
+      8
+    ],
+    [
+      "uniform_full",
+      2
+    ],
+    [
+      "rotated_normal_codebook",
+      2
+    ],
+    [
+      "uniform_full",
+      3
+    ],
+    [
+      "rotated_normal_codebook",
+      3
+    ],
+    [
+      "uniform_full",
+      4
+    ],
+    [
+      "rotated_uniform",
+      4
+    ],
+    [
+      "normal_codebook",
+      4
+    ],
+    [
+      "rotated_normal_codebook",
+      4
+    ]
+  ],
+  "rotation_seed": 0,
+  "batch_size": 256,
+  "bootstrap_seed": 20260910,
+  "data_access": "Only test_images/test_labels loaded; compression receives model state only.",
+  "dfq": "BN fold + 13 safe ReLU CLE pairs + analytic BC on 2 pointwise convs; no high bias absorption, no activation quantization. Weight-only adaptation, not canonical W8A8 DFQ.",
+  "scale_precision": "FP16",
+  "excluded_parameters": "FP16",
+  "buffers": "original dtype"
+}

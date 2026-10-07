@@ -22,3 +22,10 @@ paper/*.out
 
 # macOS
 .DS_Store
+
+# Storage-study binaries (228 packed models, 384 prediction files, bootstrap replicates) ship as a GitHub Release asset, not in git
+/storage_study/
+results/storage_study/packed/
+results/storage_study/predictions/
+*.qbin
+*_bootstrap_replicates.npz

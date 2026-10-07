@@ -1,0 +1,914 @@
+[
+  {
+    "file": "dermamnist_456_folded_uniform_3.qbin",
+    "scale_underflows": 75
+  },
+  {
+    "file": "pneumoniamnist_42_dfq_cle_bc_2.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pneumoniamnist_456_rotated_uniform_4.qbin",
+    "scale_underflows": 73
+  },
+  {
+    "file": "pneumoniamnist_456_dfq_cle_bc_4.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "pneumoniamnist_456_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pathmnist_456_dfq_cle_bc_4.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "bloodmnist_42_uniform_full_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "dermamnist_42_uniform_full_4.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pneumoniamnist_42_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_42_folded_uniform_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "bloodmnist_456_folded_uniform_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "bloodmnist_456_rotated_uniform_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "dermamnist_123_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_456_uniform_full_4.qbin",
+    "scale_underflows": 70
+  },
+  {
+    "file": "pathmnist_123_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_42_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pathmnist_456_uniform_full_4.qbin",
+    "scale_underflows": 70
+  },
+  {
+    "file": "dermamnist_456_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pneumoniamnist_456_dfq_cle_bc_8.qbin",
+    "scale_underflows": 83
+  },
+  {
+    "file": "bloodmnist_456_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_123_dfq_cle_bc_2.qbin",
+    "scale_underflows": 70
+  },
+  {
+    "file": "pneumoniamnist_123_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_456_dfq_cle_bc_8.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "bloodmnist_123_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pathmnist_456_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "bloodmnist_123_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "pneumoniamnist_456_int8_minmax_8.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "pathmnist_123_uniform_full_2.qbin",
+    "scale_underflows": 49
+  },
+  {
+    "file": "bloodmnist_456_folded_uniform_8.qbin",
+    "scale_underflows": 86
+  },
+  {
+    "file": "dermamnist_42_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "dermamnist_123_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "pneumoniamnist_42_rotated_uniform_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "dermamnist_123_uniform_full_3.qbin",
+    "scale_underflows": 63
+  },
+  {
+    "file": "dermamnist_456_int8_minmax_8.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "dermamnist_42_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pathmnist_123_uniform_full_3.qbin",
+    "scale_underflows": 60
+  },
+  {
+    "file": "bloodmnist_456_dfq_cle_bc_8.qbin",
+    "scale_underflows": 84
+  },
+  {
+    "file": "dermamnist_42_folded_uniform_4.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "bloodmnist_123_folded_uniform_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "bloodmnist_456_int8_minmax_8.qbin",
+    "scale_underflows": 83
+  },
+  {
+    "file": "bloodmnist_42_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_42_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "bloodmnist_42_folded_uniform_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "dermamnist_123_folded_uniform_4.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "dermamnist_123_dfq_cle_bc_3.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "dermamnist_456_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pathmnist_42_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "dermamnist_42_folded_uniform_8.qbin",
+    "scale_underflows": 83
+  },
+  {
+    "file": "bloodmnist_456_dfq_cle_bc_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "pneumoniamnist_42_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "pneumoniamnist_42_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "bloodmnist_42_folded_uniform_8.qbin",
+    "scale_underflows": 86
+  },
+  {
+    "file": "dermamnist_456_rotated_uniform_4.qbin",
+    "scale_underflows": 70
+  },
+  {
+    "file": "pathmnist_123_rotated_uniform_4.qbin",
+    "scale_underflows": 69
+  },
+  {
+    "file": "dermamnist_123_folded_uniform_8.qbin",
+    "scale_underflows": 83
+  },
+  {
+    "file": "pneumoniamnist_42_uniform_full_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "pneumoniamnist_42_dfq_cle_bc_3.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "bloodmnist_42_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_456_folded_uniform_2.qbin",
+    "scale_underflows": 65
+  },
+  {
+    "file": "pathmnist_42_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_456_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pneumoniamnist_42_dfq_cle_bc_8.qbin",
+    "scale_underflows": 84
+  },
+  {
+    "file": "dermamnist_123_folded_uniform_3.qbin",
+    "scale_underflows": 76
+  },
+  {
+    "file": "dermamnist_123_dfq_cle_bc_4.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "bloodmnist_123_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pathmnist_456_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "bloodmnist_42_folded_uniform_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "bloodmnist_123_folded_uniform_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "dermamnist_456_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_42_folded_uniform_3.qbin",
+    "scale_underflows": 75
+  },
+  {
+    "file": "pathmnist_123_uniform_full_4.qbin",
+    "scale_underflows": 68
+  },
+  {
+    "file": "dermamnist_42_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pathmnist_456_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_42_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "dermamnist_123_uniform_full_4.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "bloodmnist_123_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pneumoniamnist_42_dfq_cle_bc_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "pneumoniamnist_456_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_456_dfq_cle_bc_2.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pneumoniamnist_42_uniform_full_3.qbin",
+    "scale_underflows": 64
+  },
+  {
+    "file": "pneumoniamnist_456_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_456_dfq_cle_bc_2.qbin",
+    "scale_underflows": 69
+  },
+  {
+    "file": "bloodmnist_42_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "bloodmnist_123_int8_minmax_8.qbin",
+    "scale_underflows": 83
+  },
+  {
+    "file": "dermamnist_123_dfq_cle_bc_8.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "dermamnist_42_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_42_uniform_full_2.qbin",
+    "scale_underflows": 50
+  },
+  {
+    "file": "dermamnist_123_int8_minmax_8.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "bloodmnist_123_folded_uniform_8.qbin",
+    "scale_underflows": 86
+  },
+  {
+    "file": "bloodmnist_456_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "bloodmnist_456_dfq_cle_bc_3.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "dermamnist_456_uniform_full_2.qbin",
+    "scale_underflows": 50
+  },
+  {
+    "file": "pathmnist_42_rotated_uniform_4.qbin",
+    "scale_underflows": 70
+  },
+  {
+    "file": "dermamnist_123_rotated_uniform_4.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pathmnist_456_uniform_full_2.qbin",
+    "scale_underflows": 50
+  },
+  {
+    "file": "pathmnist_456_rotated_uniform_4.qbin",
+    "scale_underflows": 70
+  },
+  {
+    "file": "pathmnist_456_uniform_full_3.qbin",
+    "scale_underflows": 62
+  },
+  {
+    "file": "pathmnist_42_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "bloodmnist_456_dfq_cle_bc_2.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "dermamnist_456_uniform_full_3.qbin",
+    "scale_underflows": 62
+  },
+  {
+    "file": "bloodmnist_456_folded_uniform_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "pneumoniamnist_123_rotated_uniform_4.qbin",
+    "scale_underflows": 72
+  },
+  {
+    "file": "pneumoniamnist_42_folded_uniform_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "pneumoniamnist_42_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "dermamnist_42_uniform_full_3.qbin",
+    "scale_underflows": 62
+  },
+  {
+    "file": "bloodmnist_42_uniform_full_3.qbin",
+    "scale_underflows": 64
+  },
+  {
+    "file": "pneumoniamnist_42_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "pneumoniamnist_123_int8_minmax_8.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "pathmnist_456_dfq_cle_bc_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "pneumoniamnist_456_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_456_dfq_cle_bc_3.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "dermamnist_456_folded_uniform_4.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "bloodmnist_123_rotated_uniform_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "dermamnist_42_folded_uniform_2.qbin",
+    "scale_underflows": 65
+  },
+  {
+    "file": "pneumoniamnist_42_folded_uniform_8.qbin",
+    "scale_underflows": 86
+  },
+  {
+    "file": "bloodmnist_42_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "pathmnist_456_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "bloodmnist_123_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "dermamnist_123_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "dermamnist_456_folded_uniform_8.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "dermamnist_42_int8_minmax_8.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "pneumoniamnist_123_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "bloodmnist_42_dfq_cle_bc_8.qbin",
+    "scale_underflows": 84
+  },
+  {
+    "file": "pathmnist_42_dfq_cle_bc_4.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "dermamnist_456_dfq_cle_bc_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "dermamnist_42_dfq_cle_bc_3.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "pneumoniamnist_123_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "bloodmnist_123_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "pathmnist_123_folded_uniform_2.qbin",
+    "scale_underflows": 64
+  },
+  {
+    "file": "pathmnist_456_int8_minmax_8.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "pathmnist_456_folded_uniform_8.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "bloodmnist_123_dfq_cle_bc_8.qbin",
+    "scale_underflows": 84
+  },
+  {
+    "file": "pneumoniamnist_123_uniform_full_3.qbin",
+    "scale_underflows": 64
+  },
+  {
+    "file": "bloodmnist_123_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_456_folded_uniform_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "pathmnist_42_dfq_cle_bc_8.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "dermamnist_123_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 56
+  },
+  {
+    "file": "bloodmnist_42_dfq_cle_bc_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "bloodmnist_456_uniform_full_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "pneumoniamnist_42_int8_minmax_8.qbin",
+    "scale_underflows": 83
+  },
+  {
+    "file": "pathmnist_123_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 53
+  },
+  {
+    "file": "bloodmnist_456_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pathmnist_42_int8_minmax_8.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "pathmnist_42_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "pathmnist_456_folded_uniform_4.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "bloodmnist_123_dfq_cle_bc_4.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "bloodmnist_42_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "bloodmnist_42_int8_minmax_8.qbin",
+    "scale_underflows": 83
+  },
+  {
+    "file": "pneumoniamnist_123_folded_uniform_4.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "pneumoniamnist_456_uniform_full_4.qbin",
+    "scale_underflows": 73
+  },
+  {
+    "file": "pathmnist_42_folded_uniform_3.qbin",
+    "scale_underflows": 75
+  },
+  {
+    "file": "bloodmnist_123_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pneumoniamnist_123_dfq_cle_bc_4.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "pneumoniamnist_456_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "bloodmnist_456_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pathmnist_123_dfq_cle_bc_4.qbin",
+    "scale_underflows": 76
+  },
+  {
+    "file": "pathmnist_123_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 53
+  },
+  {
+    "file": "dermamnist_42_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_42_uniform_full_4.qbin",
+    "scale_underflows": 70
+  },
+  {
+    "file": "dermamnist_42_rotated_uniform_4.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pneumoniamnist_456_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "dermamnist_456_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pneumoniamnist_123_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "pneumoniamnist_123_folded_uniform_8.qbin",
+    "scale_underflows": 84
+  },
+  {
+    "file": "pathmnist_456_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_123_folded_uniform_3.qbin",
+    "scale_underflows": 73
+  },
+  {
+    "file": "bloodmnist_123_uniform_full_3.qbin",
+    "scale_underflows": 64
+  },
+  {
+    "file": "pneumoniamnist_123_dfq_cle_bc_8.qbin",
+    "scale_underflows": 82
+  },
+  {
+    "file": "dermamnist_42_dfq_cle_bc_2.qbin",
+    "scale_underflows": 69
+  },
+  {
+    "file": "pathmnist_42_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "dermamnist_456_dfq_cle_bc_2.qbin",
+    "scale_underflows": 69
+  },
+  {
+    "file": "pathmnist_123_dfq_cle_bc_8.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "dermamnist_123_normal_codebook_4.qbin",
+    "scale_underflows": 56
+  },
+  {
+    "file": "pathmnist_456_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pneumoniamnist_123_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "dermamnist_123_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 56
+  },
+  {
+    "file": "bloodmnist_42_dfq_cle_bc_2.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pathmnist_42_uniform_full_3.qbin",
+    "scale_underflows": 62
+  },
+  {
+    "file": "pneumoniamnist_42_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "bloodmnist_456_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "pathmnist_123_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 53
+  },
+  {
+    "file": "bloodmnist_456_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pathmnist_123_dfq_cle_bc_3.qbin",
+    "scale_underflows": 75
+  },
+  {
+    "file": "bloodmnist_42_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pneumoniamnist_123_dfq_cle_bc_3.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "pathmnist_42_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_123_folded_uniform_8.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "pathmnist_42_folded_uniform_4.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "pneumoniamnist_456_uniform_full_3.qbin",
+    "scale_underflows": 64
+  },
+  {
+    "file": "bloodmnist_42_rotated_uniform_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "pathmnist_456_folded_uniform_2.qbin",
+    "scale_underflows": 65
+  },
+  {
+    "file": "bloodmnist_123_dfq_cle_bc_2.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pneumoniamnist_123_folded_uniform_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "bloodmnist_42_rotated_normal_codebook_2.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_123_rotated_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_42_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_42_dfq_cle_bc_2.qbin",
+    "scale_underflows": 69
+  },
+  {
+    "file": "bloodmnist_123_uniform_full_4.qbin",
+    "scale_underflows": 74
+  },
+  {
+    "file": "dermamnist_456_normal_codebook_4.qbin",
+    "scale_underflows": 55
+  },
+  {
+    "file": "pathmnist_123_folded_uniform_4.qbin",
+    "scale_underflows": 76
+  },
+  {
+    "file": "pathmnist_123_normal_codebook_4.qbin",
+    "scale_underflows": 53
+  },
+  {
+    "file": "pathmnist_42_folded_uniform_8.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "pneumoniamnist_456_folded_uniform_4.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "pneumoniamnist_123_uniform_full_4.qbin",
+    "scale_underflows": 72
+  },
+  {
+    "file": "pneumoniamnist_456_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "bloodmnist_456_normal_codebook_4.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "dermamnist_42_dfq_cle_bc_4.qbin",
+    "scale_underflows": 79
+  },
+  {
+    "file": "bloodmnist_456_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "dermamnist_456_dfq_cle_bc_4.qbin",
+    "scale_underflows": 78
+  },
+  {
+    "file": "pneumoniamnist_123_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_42_dfq_cle_bc_3.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "bloodmnist_42_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 57
+  },
+  {
+    "file": "pneumoniamnist_456_folded_uniform_8.qbin",
+    "scale_underflows": 85
+  },
+  {
+    "file": "pneumoniamnist_123_folded_uniform_2.qbin",
+    "scale_underflows": 66
+  },
+  {
+    "file": "bloodmnist_123_dfq_cle_bc_3.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "dermamnist_123_fp16_16.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pathmnist_456_folded_uniform_3.qbin",
+    "scale_underflows": 75
+  },
+  {
+    "file": "pathmnist_123_fp32_32.qbin",
+    "scale_underflows": 0
+  },
+  {
+    "file": "pneumoniamnist_456_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "dermamnist_42_dfq_cle_bc_8.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "pneumoniamnist_123_dfq_cle_bc_2.qbin",
+    "scale_underflows": 71
+  },
+  {
+    "file": "pathmnist_123_dfq_cle_bc_2.qbin",
+    "scale_underflows": 67
+  },
+  {
+    "file": "dermamnist_456_dfq_cle_bc_8.qbin",
+    "scale_underflows": 81
+  },
+  {
+    "file": "bloodmnist_456_uniform_full_3.qbin",
+    "scale_underflows": 64
+  },
+  {
+    "file": "pathmnist_42_uniform_full_2.qbin",
+    "scale_underflows": 51
+  },
+  {
+    "file": "pathmnist_123_int8_minmax_8.qbin",
+    "scale_underflows": 77
+  },
+  {
+    "file": "bloodmnist_42_dfq_cle_bc_3.qbin",
+    "scale_underflows": 80
+  },
+  {
+    "file": "dermamnist_123_rotated_normal_codebook_3.qbin",
+    "scale_underflows": 56
+  }
+]

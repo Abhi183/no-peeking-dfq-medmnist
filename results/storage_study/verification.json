@@ -1,0 +1,7 @@
+{
+  "predictions": 384,
+  "packed_files": 228,
+  "max_recomputed_metric_error": 1.1102230246251565e-16,
+  "all_hashes_match": true,
+  "all_decoded_tensors_finite": true
+}

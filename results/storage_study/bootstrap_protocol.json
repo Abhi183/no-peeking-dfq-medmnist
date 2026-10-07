@@ -1,0 +1,74 @@
+{
+  "seed": 20260910,
+  "replicates": 2000,
+  "specs": [
+    [
+      "saved_fp32",
+      32
+    ],
+    [
+      "saved_fp16",
+      16
+    ],
+    [
+      "saved_int8_minmax",
+      8
+    ],
+    [
+      "saved_uniform_full",
+      4
+    ],
+    [
+      "saved_rotated_uniform",
+      4
+    ],
+    [
+      "saved_normal_codebook",
+      4
+    ],
+    [
+      "saved_rotated_normal_codebook",
+      4
+    ],
+    [
+      "folded_uniform",
+      4
+    ],
+    [
+      "dfq_cle_bc",
+      4
+    ]
+  ],
+  "pairs": [
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "unit": "test image, stratified by class",
+  "scope": "fixed checkpoints; identical image resamples across seeds and methods; marginal percentile 95% intervals, not adjusted for multiplicity"
+}

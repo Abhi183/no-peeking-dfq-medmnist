@@ -1,0 +1,14 @@
+{
+  "code/saved_codec.py": "fd273aad68538dd93106ae72029bd3cb0acc1a1e43fb0761823a7a19bdc5c8d5",
+  "code/matched_dfq.py": "babc87729ea53b1501527f3e966448efe880b5747d708a4656b71a9f9bb59adb",
+  "code/run_storage_study.py": "13d93a8af3088aacffe4c8a892ccc4428dc9a4dbd06a21604c0a798df78dbc79",
+  "code/paired_bootstrap.py": "275824ff89c370b3fe15d7e598496749fe606eb1f6acb8166844111b46129052",
+  "code/quantizers.py": "49b53b6d4ce4593e451178ad4636c2c025a4e384c9e2201b1c0c28e2a5608a53",
+  "code/model.py": "e81ec854755c5987cecf934522e479ff0ffcd95fb6a0fb635d77581afbee6292",
+  "code/data.py": "5bfb8023cb3af2f382448b30517220ef894d5b55e93b18499c7d706411edd32f",
+  "code/corrected_eval.py": "b91c53db8a1e22282aedb5dbbe5883bc50c9b73b8f1436c42f658fd7dde14827",
+  "code/STORAGE_STUDY.md": "39c4bda0c26a3c78c9314d5710a4c9dae78d8bd2fbac41a1ed36e7fe4f922578",
+  "code/tests/test_paired_bootstrap.py": "d067c2fa4df131f8f78dc2f0a8feb4d54125e09301cae61e2504441cf1b4ab31",
+  "code/tests/test_matched_dfq.py": "69f305824af8ea690608fafb64f20a6e62fff39128e0071da38bbda2686e5233",
+  "code/tests/test_saved_codec.py": "d298768b4f4be5adb1e1740074835b0634661abb9d444f73900740abe8a57d89"
+}
