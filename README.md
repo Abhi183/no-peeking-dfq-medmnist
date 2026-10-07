@@ -100,10 +100,13 @@ and the bootstrap protocol in detail.
 
 ## Known gaps
 
-The checkpoints do not record the epoch budget or learning rate used to train
-them. The manuscript reports 12 epochs; the script defaults to 15. Batch-norm
-counters are consistent with selected epochs 6 to 12 at batch size 128 but do
-not settle the question. Treat the script defaults as unconfirmed.
+The training script did not write a log file, and the checkpoints do not
+record the epoch budget or learning rate. The 12-epoch budget is confirmed by
+the session records of the runs that produced the checkpoints, collected in
+`results/training_provenance/`, and is consistent with the batch-norm counter
+analysis there. The learning rate is inferred as the script default of 1e-3;
+no primary record names it. `code/train.py` now writes a `.train.json` log
+beside each checkpoint so this cannot recur.
 
 Rotations are regenerated from stored seeds with NumPy's QR, so decoding depends
 on the NumPy and LAPACK build. The codec is a research artifact, not a portable

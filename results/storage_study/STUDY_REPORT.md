@@ -32,7 +32,7 @@ The matched baseline folds BN, equalizes 13 supported ReLU paths, and applies an
 
 ## Remaining author input
 
-The original manuscript reports a 12-epoch budget. The training script defaults to 15 epochs and learning rate 0.001. Batch counters relative to the cached pretrained model are consistent with selected epochs 6–12 at batch size 128, but do not establish the total epoch budget or learning rate. Please provide the original command or logs. No additional inference test is required for this study. The new code/results have not been pushed to GitHub.
+Resolved 2026-10-07. Session records of the two training launches confirm `--epochs 12 --size 64`; see `../training_provenance/`. The learning rate is inferred as the script default of 0.001. The new code and results are now on GitHub (commit 1100d95 and later).
 
 ## Files
 

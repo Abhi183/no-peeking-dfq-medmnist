@@ -1,4 +1,7 @@
-"""Train an FP32 MobileNetV3-Small baseline on a MedMNIST dataset and save the
+"""
+dfq/train.py
+------------
+Train an FP32 MobileNetV3-Small baseline on a MedMNIST dataset and save the
 checkpoint plus clean test metrics. One checkpoint per (dataset, seed).
 """
 
@@ -6,9 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
-import platform
 import time
-from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -54,59 +55,7 @@ def evaluate(model: nn.Module, loader, device, n_classes: int) -> dict:
     return {"acc": acc, "auc": auc, "f1_macro": f1}
 
 
-def build_run_record(
-    *,
-    dataset: str,
-    seed: int,
-    epochs: int,
-    size: int,
-    lr: float,
-    batch_size: int,
-    weight_decay: float,
-    device: str,
-    epoch_log: list[dict],
-    test: dict,
-    train_secs: float,
-    started_utc: str,
-) -> dict:
-    """Return the JSON-serialisable training record written next to a checkpoint.
-
-    Pure function so it can be tested without data or a GPU. Everything the
-    checkpoint itself does not store (epoch budget, learning rate, per-epoch
-    validation metrics, environment) goes here.
-    """
-    return {
-        "dataset": dataset,
-        "seed": seed,
-        "args": {
-            "epochs": epochs,
-            "size": size,
-            "lr": lr,
-            "batch_size": batch_size,
-            "weight_decay": weight_decay,
-        },
-        "optimizer": "AdamW",
-        "scheduler": "CosineAnnealingLR",
-        "selection": "best validation AUC, later epoch wins ties",
-        "device": device,
-        "versions": {
-            "python": platform.python_version(),
-            "torch": torch.__version__,
-            "numpy": np.__version__,
-        },
-        "started_utc": started_utc,
-        "train_secs": round(train_secs, 1),
-        "epochs_run": len(epoch_log),
-        "selected_epoch": max(
-            (e["epoch"] for e in epoch_log if e.get("selected")), default=None
-        ),
-        "epoch_log": epoch_log,
-        "test": test,
-    }
-
-
 def train_one(dataset: str, seed: int, epochs: int, size: int, lr: float) -> dict:
-    started_utc = datetime.now(timezone.utc).isoformat(timespec="seconds")
     torch.manual_seed(seed)
     np.random.seed(seed)
     device = get_device()
@@ -119,7 +68,6 @@ def train_one(dataset: str, seed: int, epochs: int, size: int, lr: float) -> dic
 
     t0 = time.time()
     best_auc, best_state = -1.0, None
-    epoch_log: list[dict] = []
     for ep in range(epochs):
         model.train()
         for x, y in bundle.train:
@@ -130,12 +78,9 @@ def train_one(dataset: str, seed: int, epochs: int, size: int, lr: float) -> dic
             opt.step()
         sched.step()
         val = evaluate(model, bundle.val, device, bundle.n_classes)
-        selected = val["auc"] >= best_auc
-        if selected:
+        if val["auc"] >= best_auc:
             best_auc = val["auc"]
             best_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
-        epoch_log.append({"epoch": ep + 1, **{f"val_{k}": v for k, v in val.items()},
-                          "selected": selected})
         print(f"[{dataset} s{seed}] epoch {ep+1}/{epochs} "
               f"val_acc={val['acc']:.4f} val_auc={val['auc']:.4f}")
 
@@ -143,22 +88,12 @@ def train_one(dataset: str, seed: int, epochs: int, size: int, lr: float) -> dic
     test = evaluate(model, bundle.test, device, bundle.n_classes)
     secs = time.time() - t0
 
-    train_args = {"epochs": epochs, "size": size, "lr": lr,
-                  "batch_size": 128, "weight_decay": 1e-4}
     CKPT_DIR.mkdir(exist_ok=True)
     ckpt = CKPT_DIR / f"{dataset}_seed{seed}.pt"
     torch.save({"state_dict": best_state, "n_classes": bundle.n_classes,
                 "n_channels": bundle.n_channels, "size": size,
-                "dataset": dataset, "seed": seed, "test": test,
-                "train_args": train_args}, ckpt)
-    record = build_run_record(
-        dataset=dataset, seed=seed, epochs=epochs, size=size, lr=lr,
-        batch_size=128, weight_decay=1e-4, device=str(device),
-        epoch_log=epoch_log, test=test, train_secs=secs, started_utc=started_utc,
-    )
-    log_path = ckpt.with_suffix(".train.json")
-    log_path.write_text(json.dumps(record, indent=2) + "\n")
-    print(f"[{dataset} s{seed}] TEST {test} | {secs:.0f}s -> {ckpt.name}, {log_path.name}")
+                "dataset": dataset, "seed": seed, "test": test}, ckpt)
+    print(f"[{dataset} s{seed}] TEST {test} | {secs:.0f}s -> {ckpt.name}")
     return {"dataset": dataset, "seed": seed, "train_secs": secs, **test}
 
 

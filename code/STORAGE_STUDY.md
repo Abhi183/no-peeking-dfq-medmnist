@@ -36,4 +36,6 @@ The BN-folding-only control uses the same tensor eligibility, row granularity, 2
 
 ## Historical training provenance
 
-The original manuscript states 12 epochs. The script defaults to 15 epochs and learning rate 0.001; its batch size is 128, AdamW weight decay 0.0001, with cosine scheduling and best-validation-AUC selection. The checkpoints do not store optimizer, scheduler, learning rate or epoch budget. Batch counters relative to the cached pretrained V1 weights are consistent with selected epochs 6–12 at batch size 128, but cannot establish the total training budget or learning rate. Do not present script defaults as confirmed historical settings.
+The original manuscript states 12 epochs. The script defaults to 15 epochs and learning rate 0.001; its batch size is 128, AdamW weight decay 0.0001, with cosine scheduling and best-validation-AUC selection. The checkpoints do not store optimizer, scheduler, learning rate or epoch budget. Batch counters relative to the cached pretrained V1 weights are consistent with selected epochs 6–12 at batch size 128.
+
+Session records recovered on 2026-10-07 (`results/training_provenance/`) show both runs were launched with `--epochs 12 --size 64` from the committed script, and the recorded test metrics and timings match the checkpoints. The epoch budget is therefore documented. The learning rate is not named in those records and is taken to be the script default.
